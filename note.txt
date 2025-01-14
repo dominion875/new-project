@@ -1,0 +1,16 @@
+our cakes are crafted with love,giving you the quality your heart craves for
+
+<i class="bi bi-chevron-right"></i>
+<i class="bi bi-chevron-left"></i>
+<i class="bi bi-list"></i>
+<i class="bi bi-x-lg"></i>
+
+                    <img src="./img/love.jpeg" alt="">
+                    <img src="./img/milky.jpeg" alt="">
+                    <img src="./img/peanut.jpeg" alt="">
+                    <img src="./img/c1.jpg" alt="">
+
+                    <img src="./img/o.jpg" alt="">
+                    <img src="./img/c3.jpg" alt="">
+                    <img src="./img/c2.jpg" alt="">
+                    <img src="./img/b9.jpg" alt="">

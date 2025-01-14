@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empress Cake</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="icon" href="./img/android-chrome-512x512.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navSideLink">
+            <nav class="navBar">
+                <a href="./index.html" class="link">Home</a>
+                <a href="./html/about.html" class="link">About</a>
+                <a href="./html/shop.html" class="link">Shop</a>
+                <a href="./html/contact.html" class="link">Contact us</a>
+            </nav>
+            <nav class="navIcon">
+                <a href="">
+                    <label for="text">Search</label>
+                </a>
+                <button class="navLog">
+                    <a href="./html/register.html">Log in</a>
+                </button>
+                <button class="cart">
+                    <img src="./img/cart.png" alt="">
+                    <label for="text">Cart</label>
+                </button>
+            </nav>
+        </div>
+        <header class="head">
+            <img src="./img/empresslogo.png" alt="" class="brand">
+            <div class="hamburger">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="navLink">
+                <nav class="navBar">
+                    <a href="./index.html" class="link">Home</a>
+                    <a href="./html/about.html" class="link">About</a>
+                    <a href="./html/shop.html" class="link">Shop</a>
+                    <a href="./html/contact.html" class="link">Contact us</a>
+                </nav>
+                <nav class="navIcon">
+                    <a href="">
+                        <i class="bi bi-search" onclick="search()"></i>
+                    </a>
+                    <a href="./html/register.html">
+                        <i class="bi bi-person" style="font-size: 2.7ch;"></i>
+                    </a>
+                    <button class="cart">
+                        <img src="./img/cart.png" alt="">
+                        <label for="text">Cart</label>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <div class="div">
+            <!-- <input type="search" placeholder="search"> -->
+            <div class="slide1">
+                <div class="left"><i class="bi bi-chevron-left" id="left"></i></div>
+                <div class="deli1" data-aos="zoom-in">
+                    <label for="text" class="craft">Crafted with love.</label>
+                    <label for="text" class="deli">Delicious Cake <br>For Everyone.</label>
+                    <label for="text" class="quote">Using the finest ingredients to<br>give you the quality your heart
+                        craves for.</label>
+                    <button class="butt">Shop Now</button>
+                    <img src="./img/a3.png" alt="" class="sec-cake">
+                </div>
+                <div class="right"><i class="bi bi-chevron-right"></i></div>
+            </div>
+            <!-- <div class="slide2">
+                <div class="left"><i class="bi bi-chevron-left" id="left"></i></div>
+                <div class="deli2" data-aos="zoom-in">
+                    <label for="text" class="craft">Crafted with love.</label>
+                    <label for="text" class="deli">Delicious Cake <br>For Everyone.</label>
+                    <label for="text" class="quote">Using the finest ingredients to<br>give you the quality your heart
+                        craves for.</label>
+                    <button class="butt">Shop Now</button>
+                    <img src="./img/a2.png" alt="" class="sec-cake2">
+                </div>
+                <div class="right"><i class="bi bi-chevron-right"></i></div>
+            </div> -->
+            <!-- <div class="slide3">
+                <div class="left"><i class="bi bi-chevron-left" id="left"></i></div>
+                <div class="deli3" data-aos="zoom-in">
+                    <label for="text" class="craft">Crafted with love.</label>
+                    <label for="text" class="deli">Delicious Cake <br>For Everyone.</label>
+                    <label for="text" class="quote">Using the finest ingredients to<br>give you the quality your heart
+                        craves for.</label>
+                    <button class="butt">Shop Now</button>
+                    <img src="./img/a4.png" alt="" class="sec-cake3">
+                </div>
+                <div class="right"><i class="bi bi-chevron-right" id="btn"></i></div>
+            </div> -->
+        </div>
+        <div class="adverts">
+            <div class="advert">
+                <i class=" bi bi-truck"></i>
+                <h2 for="text">Delivery Services</h2>
+                <label for="txet">Order any cake design from us and we will delivery it to your door step as soon as
+                    possible</label>
+            </div>
+            <div class="advert">
+                <i class=" bi bi-credit-card"></i>
+                <h2 for="text">Safe Payment</h2>
+                <label for="txet">Pay with the world's most popular and secure payment method</label>
+            </div>
+            <div class="advert">
+                <i class=" bi bi-cart3"></i>
+                <h2 for="text">Shop with confidence</h2>
+                <label for="text">Our buyer protection covers your purchase to
+                    give you the quality your heart craves for</label>
+            </div>
+        </div>
+        <div class="cakediv">
+            <label for="text" class="cash">Cake Shop</label>
+            <div class="cakediv1" data-aos="zoom-out">
+                <div class="box">
+                    <i class="bi bi-heart" onclick="bgc" id="boxi"></i>
+                    <img src="./img/a2.png" alt="" width="100%" class="boxImg">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <button>
+                        Add to Cart
+                        <i class="bi bi-cart3"></i>
+                    </button>
+                </div>
+                <div class="box">
+                    <i class="bi bi-heart" onclick="bgc()" id="boxi"></i>
+                    <img src="./img/a4.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <button>
+                        Add to Cart
+                        <i class="bi bi-cart3"></i>
+                    </button>
+                </div>
+                <div class="box">
+                    <i class="bi bi-heart" onclick="bgc()" id="boxi"></i>
+                    <img src="./img/a1.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <button>
+                        add to cart
+                        <i class="bi bi-cart3"></i>
+                    </button>
+                </div>
+                <div class="box">
+                    <i class="bi bi-heart" onclick="bgc()" id="boxi"></i>
+                    <img src="./img/drip.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <button>
+                        add to cart
+                        <i class="bi bi-cart3"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="cakediv1" data-aos="zoom-in">
+                <div class="box">
+                    <i class="bi bi-heart" onclick="bgc()" id="boxi"></i>
+                    <img src="./img/a2.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <button>
+                        Add to Cart
+                        <i class="bi bi-cart3"></i>
+                    </button>
+                </div>
+                <div class="box">
+                    <i class="bi bi-heart" onclick="bgc()" id="boxi"></i>
+                    <img src="./img/a4.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <button>
+                        Add to Cart
+                        <i class="bi bi-cart3"></i>
+                    </button>
+                </div>
+                <div class="box">
+                    <i class="bi bi-heart" onclick="bgc()" id="boxi"></i>
+                    <img src="./img/a1.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <button>
+                        add to cart
+                        <i class="bi bi-cart3"></i>
+                    </button>
+                </div>
+                <div class="box">
+                    <i class="bi bi-heart" onclick="bgc()" id="boxi"></i>
+                    <img src="./img/drip.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <button>
+                        add to cart
+                        <i class="bi bi-cart3"></i>
+                    </button>
+                </div>
+            </div>
+            <button class="view">
+                View All
+                <i class="bi bi-arrow-down"></i>
+            </button>
+            <div class="cakeBcg" id="cakeBcg">
+                <div class="cakeBcgs">
+                    <div class="cakeBcg1">
+                        <label for="text">Get a slice of empress cakes,<br>crafted with love and passion to make
+                            <br>every memories
+                            last a lifetime</label>
+                    </div>
+                </div>
+            </div>
+            <label for="text" class="cash">Best Products</label>
+            <div class="cakediv1" data-aos="zoom-in">
+                <div class="cakead">
+                    <img src="./img/a2.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <div class="boxIcon">
+                        <i class="bi bi-heart" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-bag" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-cart2" onclick="bgc" id="icon"></i>
+                    </div>
+                </div>
+                <div class="cakead">
+                    <img src="./img/a4.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <div class="boxIcon">
+                        <i class="bi bi-heart" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-bag" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-cart2" onclick="bgc" id="icon"></i>
+                    </div>
+                </div>
+                <div class="cakead">
+                    <img src="./img/a1.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <div class="boxIcon">
+                        <i class="bi bi-heart" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-bag" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-cart2" onclick="bgc" id="icon"></i>
+                    </div>
+                </div>
+                <div class="cakead">
+                    <img src="./img/drip.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <div class="boxIcon">
+                        <i class="bi bi-heart" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-bag" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-cart2" onclick="bgc" id="icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="cakediv1" data-aos="zoom-in">
+                <div class="cakead">
+                    <img src="./img/a2.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <div class="boxIcon">
+                        <i class="bi bi-heart" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-bag" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-cart2" onclick="bgc" id="icon"></i>
+                    </div>
+                </div>
+                <div class="cakead">
+                    <img src="./img/a4.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <div class="boxIcon">
+                        <i class="bi bi-heart" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-bag" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-cart2" onclick="bgc" id="icon"></i>
+                    </div>
+                </div>
+                <div class="cakead">
+                    <img src="./img/a1.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <div class="boxIcon">
+                        <i class="bi bi-heart" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-bag" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-cart2" onclick="bgc" id="icon"></i>
+                    </div>
+                </div>
+                <div class="cakead">
+                    <img src="./img/drip.png" alt="" width="100%">
+                    <label for="text">Creamy Cherry Milk</label>
+                    <h2>$150.00</h2>
+                    <div class="boxIcon">
+                        <i class="bi bi-heart" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-bag" onclick="bgc" id="icon"></i>
+                        <i class="bi bi-cart2" onclick="bgc" id="icon"></i>
+                    </div>
+                </div>
+            </div>
+            <label for="text" class="gallery">Gallery</label>
+            <div class="cakediv2" data-aos="zoom-in">
+                <div class="cakeads">
+                    <img src="./img/c4.jpeg" alt="" width="100%">
+                </div>
+                <div class="cakeads">
+                    <img src="./img/c3.jpg" alt="" width="100%">
+                </div>
+                <div class="cakeads">
+                    <img src="./img/peanut.jpeg" alt="" width="100%">
+                </div>
+                <div class="cakeads">
+                    <img src="./img/c2.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="cakediv2" data-aos="zoom-in">
+                <div class="cakeads">
+                    <img src="./img/o.jpg" alt="" width="100%">
+                </div>
+                <div class="cakeads">
+                    <img src="./img/c1.jpg" alt="" width="100%">
+                </div>
+                <div class="cakeads">
+                    <img src="./img/b9.jpg" alt="" width="100%">
+                </div>
+                <div class="cakeads">
+                    <img src="./img/love.jpeg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footerWrap">
+                <label for="text" class="footerText">Empress cakes & pastries</label>
+                <div class="footer1">
+                    <label for="text" class="footerHead">Quick Links</label>
+                    <div class="footIcon">
+                        <i class="bi bi-arrow-right-short"></i>
+                        <a href="./index.html">Home</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-arrow-right-short"></i>
+                        <a href="./html/about.html">About</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-arrow-right-short"></i>
+                        <a href="./html/shop.html">Shop</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-arrow-right-short"></i>
+                        <a href="./html/contact.html">Contact us</a>
+                    </div>
+                </div>
+                <div class="footer1">
+                    <label for="text" class="footerHead">Contact Us</label>
+                    <div class="footIcon">
+                        <i class="bi bi-telephone-inbound"></i>
+                        <a href="">+234 811 8599 487</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-envelope-at"></i>
+                        <a href="">isudominion@gmail.com</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-geo-alt"></i>
+                        <a href="">Box 117 banana island</a>
+                    </div>
+                </div>
+                <div class="footer1">
+                    <label for="text" class="footerHead">Follow Us</label>
+                    <div class="footIcon">
+                        <i class="bi bi-facebook"></i>
+                        <a href="">Facebook</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-twitter"></i>
+                        <a href="">Twitter</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-instagram"></i>
+                        <a href="">Instagram</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-pinterest"></i>
+                        <a href="">Pinterst</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-youtube"></i>
+                        <a href="">Youtube</a>
+                    </div>
+                    <div class="footIcon">
+                        <i class="bi bi-tiktok"></i>
+                        <a href="">Tiktok</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="line">
+            <label for="text" class="copyright">Copyright @ 2024. All Rights Reserved.Designed by Dominion</label>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1450,
+        })
+    </script>
+    <script src="./js/index.js"></script>
+
+
+    <!-- // const boxes = document.querySelectorAll('.box');
+        // window.addEventListener('scroll', checkBoxes)
+        // checkboxes()
+
+        // function checkBoxes() {
+        //     const triggerBotton = window.innerHeight / 5 * 4;
+
+        //     boxes.forEach(box => {
+        //         const boxTop = box.getBoundingClientRect().top;
+
+        //         if (boxTop < triggerBotton) {
+        //             box.classList.add('show');
+        //         } else {
+        //             box.classList.remove('show')
+        //         }
+        //     })
+        // } -->
+    <!-- <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector(".head");
+            header.classList.toggle("sticky", window.scrollY = 0);
+        })
+
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/cups.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.abtext{
+    font-size: 8ch;
+    text-transform: uppercase;
+    /* font-weight: 500; */
+}
+.abtext1{
+    font-weight: 500;
+    font-size: 3ch;
+}
+.about3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3ch;
+    margin-bottom: 3ch;
+}
+.abCont{
+    font-size: 5ch;
+    text-transform: uppercase;
+}
+.about4{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px;
+    border-radius: 2ch;
+    overflow: hidden;
+}
+.about4 img{
+    overflow: hidden;
+    width: 50%;
+    border-top-left-radius: 2ch;
+    border-bottom-left-radius: 2ch;
+    transition: 0.5s;
+}
+.about4 img:hover{
+    transform: scale(1.1);
+}
+.about4 label{
+    width: 50%;
+    height: auto;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    font-size: 2.5ch;
+    padding: 2.6ch 5ch;
+    z-index: 0;
+    background-color: white;
+    /* border: 3.9ch solid white; */
+}
+.section1{
+    background-image: url(../img/c6.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* margin-bottom: 100ch; */
+}
+.sectionImg{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding-top: 5ch;
+    padding-bottom: 5ch;
+}
+.abVal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 1px;
+}
+.abVals{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.value{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4ch;
+    margin-bottom: 2ch;
+}
+.valTes{
+    font-size: 2.5ch;
+    font-weight: 500;
+}
+.abVal1{
+    margin-right: 15ch;
+    margin-left: 15ch;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.3ch;
+    box-shadow: 0px 0px 5px;
+    border-radius: 1ch;
+    padding: 1ch;
+    text-align: center;
+}
+.baker{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 4ch;
+    margin: 3ch 0ch 3ch 0ch;
+}
+.section2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,18%);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5ch;
+}
+.baker1{
+    /* width: 100%; */
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border: 1.5ch solid rgb(255, 234, 198);
+    border-radius: 1ch;
+    /* background-color: rgb(238, 231, 231); */
+    background-color: rgb(255, 234, 198);
+    overflow: hidden;
+}
+.baker1 img{
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 1ch;
+    border-top-right-radius: 1ch;
+    transition: 0.3s ease;
+    /* border: 1ch solid rgb(255, 234, 198); */
+}
+.baker1 img:hover{
+    transform: scale(1.5);
+}
+.chefdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    background-color: rgb(255, 234, 198);
+    border: 2ch solid rgb(255, 234, 198);
+}
+.bakerName{
+    /* z-index: 1; */
+    font-size: 2.5ch;
+    font-weight: bold;
+    margin-top: 1ch;
+    margin-bottom: 0.3ch;
+}
+.bakerChef{
+    font-size: 2ch;
+    /* z-index: 1; */
+    color: crimson;
+}
+.abCus{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4ch;
+}
+.section3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5ch;
+}
+.abCus1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 5px 8px;
+    padding: 2ch;
+    border-radius: 2ch;
+}
+.abCus1 img{
+    width: 20%;
+    clip-path: circle(35% at 50% 30%);
+}
+/* .abCus1 label{
+    text-align: justify;
+}
+.cusView{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2ch;
+    margin-bottom: -5ch;
+}
+.cusView h3{
+    margin-top: -3ch;
+} */
+.abCus1 label{
+    text-align: center;
+}
+.ablab{
+    margin-top: -4ch;
+}
+.ablabs{
+    font-size: 5ch;
+    color: crimson;
+    margin-top: -1ch;
+}
+.satisfyPer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.satisfy{
+    width: 60%;
+    font-size: 4ch;
+}
+.percent{
+    width: 19%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 3ch;
+}
+.section4{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: flex-start;
+    border: none;
+    height: 7px;
+    border-radius: 2ch;
+    background-color: rgb(149, 143, 143);
+    margin-bottom: 6ch;
+}
+.satisfy1{
+    width: 80%;
+    background-color: rgb(255, 219, 153);
+    border-radius: 2ch;
+}

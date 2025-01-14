@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactNav1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/ai-generated2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.contactNav2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+.navLab1{
+    font-size: 8ch;
+    text-transform: uppercase;
+}
+.navLab2{
+    font-weight: 500;
+    font-size: 3ch;
+}
+.contactDiv1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10ch;
+}
+.contactDivLab1{
+    font-size: 3ch;
+    /* font-family: cursive; */
+}
+.contactDivLab2{
+    font-size: 4ch;
+    text-transform: capitalize;
+}
+.contactDivLab3{
+    font-size: 2ch;
+    text-align: center;
+}
+.contactBox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 17%);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5ch;
+    /* margin-bottom: 5ch; */
+}
+.contactBox1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 5px;
+    border-radius: 1ch;
+    padding-top: 2ch;
+    padding-bottom: 2ch;
+    /* background-color: pink; */
+}
+.contactBox1 i{
+    font-size: 4ch;
+    color: crimson;
+}
+.contactLab1{
+    font-size: 3ch;
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+}
+.contactLab2{
+    font-size: 2.3ch;
+}
+.contactInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5ch;
+    /* column-gap: 5ch; */
+}
+.contactInput input{
+    width: 60%;
+    padding: 1.5ch;
+    font-size: 2ch;
+    border-radius: 1ch;
+    margin-bottom: 2ch;
+    border: 2px solid;
+}
+.textarea{
+    resize: both;
+    max-width: 60%;
+    max-height: 30vh;
+    min-width: 60%;
+    min-height: 30vh;
+    border-radius: 1ch;
+    padding: 1ch;
+    font-size: 3ch;
+    margin-bottom: 2ch;
+    border: 2px solid;
+}
+.contactInput button{
+    width: 15%;
+    margin-bottom: 5ch;
+    font-size: 2.5ch;
+    padding: 1.5ch;
+    border-radius: 8px;
+    color: white;
+    background-color: crimson;
+    border: none;
+}
+.contactMap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactMap img{
+    width: 80%;
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width:1024px) {
+    .brand{
+        font-size: 3.5ch;
+    }
+    .navBar a{
+        font-size: 2.3ch;
+    }
+}
